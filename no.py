@@ -16,7 +16,7 @@ from sympy.printing.str import StrPrinter
 
 # from sympy.core.compatibility import range
 from sympy.utilities.iterables import has_dups
-from sympy.utilities import default_sort_key
+from sympy import default_sort_key
 from sympy.physics.secondquant import (substitute_dummies, BosonicOperator, NO,
                                        FermionicOperator, evaluate_deltas, _get_contractions,
                                        AnnihilateBoson, CreateBoson, wicks, Dagger)
